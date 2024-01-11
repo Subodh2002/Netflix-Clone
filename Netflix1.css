@@ -1,0 +1,820 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-color: rgb(0, 0, 0);
+    
+}
+/* Home Section */
+#intro{
+    background-image: url(./Images/Netflixbg.jpg);
+    background-repeat: no-repeat;
+    height: 44rem;
+    background-size: cover;
+    border-bottom: 8px solid #232323;
+    
+    
+}
+#intro>#d-back{
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.8) 80%);
+}
+#netflix-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7px;
+    width: 90%;
+   
+   
+}
+#left-cont>img{
+    position: relative;
+    right: 5rem;
+    width: 12rem;
+}
+#left-cont{
+    padding-left:15rem ;
+    margin-left: 12rem; 
+}
+#right-cont{
+    display: flex;
+    position: relative;
+    margin-right: 12rem;
+   
+}
+#right-cont>select{
+    height: 2rem;
+    width: 7.5rem;
+    padding-left: 2rem;
+    
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 25px;
+}
+#right-cont>select:hover{
+    border: 2px solid white;
+}
+#right-cont>select>option{
+    color: black;
+}
+#translator{
+    
+    width: 15px;
+    position: absolute;
+    top: 20%;
+    left: 10px;
+}
+#translator>.e1svuwfo1{
+    color: white
+}
+#right-cont>a>button{
+    height: 2rem;
+    width: 4.5rem;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+  
+
+}
+
+#div-box2{
+    margin-top: 11%;
+    text-align: center;
+}
+#div-box2>h1{
+    color: white;
+    font-size: 3.1rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+
+}
+#div-box2>#p1{
+    color: white;
+    font-size: 1.7rem;
+}
+#div-box2>#p2{
+    color: white;
+    font-size: 1.3rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+#div-box2>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+}
+#div-box2>div>input{
+    background-color: rgba(0, 0, 0, 0.329);
+    border: 1px solid red;
+    border-radius: 5px;
+    height: 3rem;
+    width: 23rem;
+    
+}
+#div-box2>div>input::placeholder{
+    color: rgb(158, 158, 158);
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+#get-start{
+    
+    position: relative;
+    
+   
+}
+#div-box2>div>#get-start>.e1svuwfo1{
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 75%;
+}
+#div-box2>div>#get-start>button{
+    background-color: #e50914;
+    border: none;
+    height: 3.1rem;
+    width: 12rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+/*  TV Section */
+#tv-section{
+    margin: 0;
+    padding: 0;
+    border-bottom:8px solid #232323 ;
+}
+#tv-sec-div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;   
+    width: 90rem;
+    height: 32rem;
+    margin: auto;
+    
+   
+}
+#tv-sec-div>#div-text{
+    color: white;
+    margin-right: 0;
+    /* background-color: #e50914; */
+}
+#tv-sec-div>#div-text>h2{
+    font-size: 3.3rem;
+    margin: 0;
+}
+#tv-sec-div>#div-text>p{
+    margin-top: 1rem;
+    font-size:1.5rem ;
+}
+#tv-sec-div>#div-tv{
+    display: flex;
+    position: relative;
+    /* background-color: chartreuse; */
+    
+}
+#tv-sec-div>#div-tv>img{
+    position: relative;
+    width: 35rem;
+    margin-left: 0;
+    
+}
+#tv-sec-div>#div-tv>video{
+    position: absolute;
+    top: 5.2rem;
+    left: 4.2rem;
+    width:26rem ;
+    z-index: -1;
+}
+/* Mobile section */
+#mob-sec{
+    margin: 0;
+    padding: 0;
+    /* background-color: #e50914; */
+    border-bottom:8px solid #232323;
+}
+#mob-sec-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 90rem;
+    height: 32rem;
+    margin: auto;
+   
+    
+}
+#mob-sec-div>#left-div
+{
+    position: relative;
+    display: flex;  
+    
+    right: 2rem;
+    
+}
+#mob-sec-div>#left-div>#mob{
+    position: relative;
+}
+#mob-sec-div>#left-div>#mob>img{
+    width: 35rem;
+}
+#mob-sec-div>#left-div>#mob-up-div{
+    display: flex;
+    
+    align-items: center;
+    background-color: black;
+    border: 2px solid rgb(112, 110, 110);
+    border-radius:12px ;
+    position: absolute;
+    width:19rem ;
+    height: 6rem;
+    top: 18rem;
+    left: 8rem;
+
+}
+#mob-up-div>#pic{
+    margin-left: 1rem;
+}
+#mob-up-div>#pic>img{
+   
+    width: 3.4rem;
+}
+
+#mob-up-div>#stranger{
+    position: relative;
+    left: 1rem;
+}
+#mob-up-div>#stranger>h5{
+    color: white;
+    margin-bottom: 0;
+    font-size: 15px;
+
+}
+#mob-up-div>#stranger>p{
+    color: rgb(41, 73, 252);
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+}
+#mob-up-div>#download{
+    position: relative;
+    left: 4rem;
+}
+#mob-up-div>#download>img{
+    width: 3rem;
+}
+#mob-sec-div>#right-div{
+    color: white;
+}
+#mob-sec-div>#right-div>h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+#mob-sec-div>#right-div>p{
+    font-size: 1.5rem;
+    
+}
+
+    /*        PC sec            */
+
+    #pc-sec{
+        margin: 0;
+        padding: 0;
+        /* background-color: #e50914; */
+        border-bottom:8px solid #232323;
+    }
+    #pc-sec>#pc-sec-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90rem;
+        height: 32rem;
+        margin: auto;
+    }
+    #pc-sec-div>#left-div>#text-div{
+        position: relative;
+        
+        color: white;
+    }
+    #pc-sec-div>#left-div>#text-div>h2{
+        font-size: 3rem;
+        font-weight: 800;
+        margin: 0;
+    }
+    #pc-sec-div>#left-div>#text-div>p{
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+    
+    #pc-sec-div>#right-div>#pc-div{
+        position: relative;
+        left: 5rem;
+        
+    }
+    #pc-sec-div>#right-div>#pc-div>img{
+        width: 33rem;
+    }
+    #pc-sec-div>#right-div>#pc-div>video{
+        position: absolute;
+        top: 2.2rem;
+        left: 5.5rem;
+        width: 21.5rem;
+        z-index: -1;
+    }
+    /* kids Section */
+
+    #kids-sec{
+        margin: 0;
+        padding: 0;
+     border-bottom:8px solid #232323;
+    }
+    #kids-sec-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90rem;
+        height: 35rem;
+        margin: auto;
+    }
+    #kids-sec-div>#kids-pic{
+        position: relative;
+        
+    }
+    #kids-sec-div>#kids-pic>img{
+        width: 36rem;
+
+    }
+    #kids-sec-div>#text-div{
+        color: white;
+    }
+    #kids-sec-div>#text-div>h2{
+        font-size: 3rem;
+        font-weight: 800;
+        margin: 0;
+    }
+    #kids-sec-div>#text-div>p{
+        font-size: 1.5rem;
+        margin-top: 11px;
+        
+    }
+
+#faq-sec{
+        margin: 0;
+        padding: 0;
+        /* background-color: #e50914; */
+        border-bottom:8px solid #232323;
+        color: white;
+        height: auto;
+       
+}
+#faq-sec>h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.faq-cont{
+         width: 90rem;    
+        margin: auto;
+
+}
+
+.ques{
+    background-color: #2d2d2d;
+    width: 73rem;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  
+}
+.ques:hover .ans{
+    display: block;
+}
+.ans{
+    display: none;
+}
+.ans>p{
+    padding: 0px 2rem;
+}
+
+.ques>.q-div{
+ display: flex;
+ position: relative;
+}
+.ques>.q-div:hover{
+ background-color: rgb(92, 92, 92);
+}
+.ques>.q-div>h3{
+    padding-left: 3rem;
+}
+.ques>div>.fa-plus{
+ position: absolute;
+ top: 2rem;
+ left: 95%;
+ font-size: 2rem;
+ 
+}
+
+#faq-foot{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+#faq-foot>p{
+font-size: 1.3rem;
+}
+#faq-foot>div>input{
+    background-color: transparent;
+    color: white;
+    border:1px solid #e50914;
+    width: 23rem;
+    height: 3.2rem;
+    border-radius: 6px;
+
+}
+#faq-foot>div>input::placeholder{
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+#faq-foot>div>button{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 13rem;
+    height: 3.2rem;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+
+}
+#faq-foot>div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#faq-foot>div>.e1svuwfo1
+{
+    position: absolute;
+    top: 0.9rem;
+    left: 60rem;
+    
+}
+
+
+footer{
+    margin:0;
+    padding: 0;
+    height: auto;
+    border-bottom:8px solid #2d2d2d;
+}
+footer>#f-div{
+   margin: 72px 317px;
+   padding: 0px 48px;
+  
+   
+}
+footer>#f-div>#q-tel{
+    color: rgb(177, 176, 176);
+    display: flex;
+}
+footer>#f-div>#q-tel>p>a{
+    color: rgb(177, 176, 176);
+}
+#f-div>#list-div{
+display: flex;
+width: 90%;
+
+}
+#f-div>#list-div>div{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+#f-div>#list-div>div>a{
+    color: rgb(177, 176, 176);
+    margin-top: 1rem;
+}
+#lang-div{
+    margin-top: 2rem;
+    position: relative;
+}
+#lang-div>.e1svuwfo1{
+    position: absolute;
+    color: white;
+    top: 7px;
+    left: 8px;
+}
+   #lang-div>#lang{
+    background-color: transparent;
+    color: white;
+    height: 2rem;
+    width: 8rem;
+    border:1px solid rgb(177, 176, 176) ;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 1rem;
+   } 
+
+   #lang-div>#lang>option{
+    color: black;
+   }
+#f-div>p{
+    color: rgb(177, 176, 176) ;
+}
+
+
+
+
+    @media(max-width:600px)
+    {
+        #intro{
+            height: 32rem;
+            
+        }
+        #netflix-nav{    
+            display: flex;
+            justify-content: center;    
+            width: 60%;
+            margin-top: 0rem;
+            
+        }
+        #left-cont>img{
+            position: relative;
+            right: 5.5rem;
+            width: 7rem;
+        }
+        #right-cont{
+            display: flex;
+            position: relative;
+            
+        }
+
+        #right-cont>select{
+            width: 4rem;
+            padding-left: 2rem;
+            
+            background-color: transparent;
+           
+            border-radius: 5px;
+            font-size: 15px;
+            margin-right: 7px;
+        }
+        #div-box2>h1{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        #div-box2>#p1{           
+            font-size: 1.2rem;
+        }
+        #div-box2>#p2{
+            color: white;
+            font-size: 1.2rem;
+            margin: 0rem 3rem 0rem 3rem;
+            
+            margin-bottom: 1rem;
+
+        }
+        #div-box2>div{
+            flex-direction: column;
+           
+        }
+        #div-box2>div>input{
+            font-size: 0.5rem;
+            height: 2.8rem;
+            width: 18rem;
+            
+        }
+        #get-start{
+            margin-top: 1.9rem;
+        }
+        #div-box2>div>#get-start>button{
+           
+            height: 3.1rem;
+            width: 10rem;
+            font-size: 1.2rem;   
+        }
+        #tv-sec-div{
+            flex-direction: column;
+            width: 24.2rem;
+           
+           
+        }
+        #tv-sec-div>#div-text{
+           text-align: center;   
+        }
+        br{
+            display: none;
+        }
+        #tv-sec-div>#div-text>h2{
+            font-size: 2rem;
+           margin-bottom: 1rem;
+        }
+        #tv-sec-div>#div-text>p{
+            margin-top: 1rem;
+            font-size:1.1rem ;
+            margin: 0rem 2rem 0rem 2rem;
+        }
+        #tv-sec-div>#div-tv>img{
+            position: relative;
+            width: 22rem;
+            margin-left: 0;
+            
+        }
+        #tv-sec-div>#div-tv>video{
+            position: absolute;
+            top: 3.1rem;
+            left: 2.9rem;
+            width:16.5rem ;
+            z-index: -1;
+        }
+        #mob-sec-div{
+            flex-direction: column-reverse;
+            width: 24.2rem;
+        }
+        #mob-sec-div>#right-div{ 
+            text-align: center;
+           
+        }
+        #mob-sec-div>#right-div>h2{
+            font-size: 2rem;
+            padding: 0px 12px 0px 12px;
+            
+        }
+        #mob-sec-div>#right-div>p{
+            font-size: 1.1rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            
+        }
+        #mob-sec-div>#left-div>#mob>img{
+            width: 20rem;
+            margin-left: 4rem;
+        }
+        #mob-sec-div>#left-div>#mob-up-div{
+            width:16rem ;
+            height: 4rem;
+            top: 10rem;
+            left: 6rem;
+        
+        }
+        #mob-up-div>#pic>img{
+            width: 2rem;
+        }
+        #mob-up-div>#stranger>h5{
+            font-size: 13px;
+        }
+        #mob-up-div>#stranger>p{
+            font-size: 12px;
+            
+        }
+        #mob-up-div>#download{      
+            left: 3.5rem;
+        }
+        #pc-sec>#pc-sec-div{
+            
+            flex-direction: column;
+            width: 24.2rem;
+           
+        }
+        #pc-sec-div>#left-div>#text-div{
+            text-align: center;
+        }
+        #pc-sec-div>#left-div>#text-div>h2{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        #pc-sec-div>#left-div>#text-div>p{
+            font-size: 1.2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        #pc-sec-div>#right-div>#pc-div{
+            position: relative;
+            left: 0rem;
+            
+        }
+        #pc-sec-div>#right-div>#pc-div>img{
+            width: 22rem;
+        }
+        #pc-sec-div>#right-div>#pc-div>video{
+            top: 2rem;
+            left:3.8rem;
+            width: 14rem;
+            
+        }
+        #kids-sec-div{
+           flex-direction: column-reverse;
+            width: 24.2rem;
+            
+        }
+        #kids-sec-div>#text-div{
+            text-align: center;
+
+        }
+        #kids-sec-div>#text-div>h2{
+            font-size: 2rem;
+            font-weight: 700;
+            padding: 0rem 2rem 0rem 2rem;
+            
+        }
+        #kids-sec-div>#text-div>p{
+            font-size: 1.2rem;
+            margin-top: 11px;
+            padding: 0rem 1rem 0rem 1rem;
+        }
+        #kids-sec-div>#kids-pic{
+            position: relative;
+            
+        }
+        #kids-sec-div>#kids-pic>img{
+            width: 20rem;
+    
+        }
+
+        #faq-sec>h2{
+            font-size: 2rem;
+           font-weight: 700;   
+        }
+        .faq-cont{
+            width: 25rem;    
+         }
+
+         .ques{
+            width: 23rem;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;         
+        }
+        .ques>.q-div>h3{
+            padding-left: 1.6rem;
+            font-weight: 100;
+        }
+        .ques>div>.fa-plus{
+            top: 1rem;
+            left: 90%;
+            font-size: 1.6rem;
+            font-weight: 100;
+            
+           }
+           #faq-foot>p{
+            font-size: 1.2rem;
+            margin: 1rem 2rem;
+            }
+            #faq-foot>div{
+                display: inline-block;
+            }
+            #faq-foot>div>input{
+                width: 20rem;
+                height: 3rem;
+                border-radius: 6px;
+                margin-bottom: 1rem;
+            
+            }
+
+            #faq-foot>div>button{
+                width: 10rem;
+                height: 3rem;
+                border-radius: 6px;
+                font-size: 1.2rem;
+                text-align: left;
+                padding-left: 1.5rem;
+            
+            }
+            #faq-foot>div>.e1svuwfo1
+             {              
+                top: 5rem;
+                left: 15rem;
+    
+            }
+            footer>#f-div{
+                margin: 10px 0px;
+                padding: 23px ;              
+                
+             }
+             #f-div>#list-div{
+                flex-wrap: wrap;
+                width: 100%;
+             }
+             #f-div>#list-div>div{
+                width: 10rem;
+                margin-left: 1rem;
+            }
+           
+            
+            
+
+    }
